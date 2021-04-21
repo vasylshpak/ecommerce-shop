@@ -5,7 +5,6 @@ import {Row, Col} from 'react-bootstrap'
 import {listProducts} from "../actions/productAction";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
-import {load} from "dotenv";
 
 const HomeScreen = () => {
   const dispatch = useDispatch()
